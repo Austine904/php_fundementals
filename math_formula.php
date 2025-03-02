@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="index.php" method="post">
+    <form action="math_formula.php" method="post">
        <label>Radius</label>
        <input type="text" name="radius">
        <input type="submit" value = "calculate">

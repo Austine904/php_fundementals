@@ -1,5 +1,5 @@
 <?php
-$username = array ("BASTOTO", "FROM", "OCHI");
+$username = array("Bastoto", "From", "Ochi");
 $phone = "123-456-789";
 
 
@@ -12,14 +12,9 @@ $phone = "123-456-789";
 //$count = strlen($phone);
 //$index = strpos($username, " ");
 //$firstname = substr($username,0, 3);
+//$fullname = explode(" ", $username);
+$username= implode("~", $username);
 
-
-
-
-
-
-echo"$name<br>";
-echo "$phone";
-
+echo $username;
 
 ?>

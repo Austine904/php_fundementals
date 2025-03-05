@@ -1,7 +1,16 @@
 body{
-    background-color: black;
+    background-image: url(spacex.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+
+
 }
-h1{color: white;
+
+h1{
+color: black;
 border-top-style: dotted;
 border-bottom-style: dotted;
 border-left-style: double;
@@ -9,20 +18,29 @@ border-right-style: double;
 border-left-width: 10px;
 border-right-width: 10px;
 border-left-color: silver;
+
+
+
+background: linear-gradient(to right, skyblue, white);
+background-repeat: no-repeat;
+background-attachment: fixed;
 }
 
 
 
 
-p{background-color: grey;
-color: white;
+p{
+color: black;
+background: linear-gradient(to right, skyblue, white);
+background-repeat: no-repeat;
+background-attachment: fixed;
 
 
 
 font-family: "press start 2P","consolas", "san-serif";
 font-style: italic;
 font-weight: 200;
-text-decoration: cyan dotted underline;
+/*text-decoration: cyan dotted underline;*/
 font-size: 18px;
 
 border-style: inset;
@@ -35,9 +53,7 @@ padding: 5px;
 #p1{
     background-color: red;
 }
-.odd{
-    color: white;
-}
+
 .even{
     color: blue;
 }

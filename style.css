@@ -30,7 +30,7 @@ background-attachment: fixed;
 
 
 p{
-color: black;
+/*color: black;
 background: linear-gradient(to right, skyblue, white);
 background-repeat: no-repeat;
 background-attachment: fixed;
@@ -40,14 +40,14 @@ background-attachment: fixed;
 font-family: "press start 2P","consolas", "san-serif";
 font-style: italic;
 font-weight: 200;
-/*text-decoration: cyan dotted underline;*/
+text-decoration: cyan dotted underline;
 font-size: 18px;
 
 border-style: inset;
 border-width: 5px;
 border-color: gold;
 border-radius: 10px;
-padding: 5px;
+padding: 5px; */
 
 }
 #p1{
@@ -58,7 +58,7 @@ padding: 5px;
     color: blue;
 }
 
-#box1{
+#box12{
     border: 5px solid;
     width: 250px;
     height: 250px;
@@ -74,7 +74,7 @@ padding: 5px;
     
     margin: 50px;
 }
-#box2{
+#box22{
     border: 5px solid;
     width: 250px;
     height: 250px;
@@ -88,4 +88,33 @@ padding: 5px;
 
 img{
     float: right;
+}
+
+
+#box1{
+
+    border: 1px solid;
+    height: 300px;
+    width: 300px;
+    background-color: orange;
+    
+    
+    position: sticky;
+    bottom: 0px;
+    top: 0px;
+    
+
+    
+}
+#box2{
+
+    border: 1px solid;
+    height: 100px;
+    width: 100px;
+    background-color: orangered;
+
+    position: relative;
+
+    top: 100px;
+    left: 100px;
 }

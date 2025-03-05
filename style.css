@@ -1,9 +1,37 @@
 body{
     background-color: black;
 }
-h1{color: white;}
+h1{color: white;
+border-top-style: dotted;
+border-bottom-style: dotted;
+border-left-style: double;
+border-right-style: double;
+border-left-width: 10px;
+border-right-width: 10px;
+border-left-color: silver;
+}
+
+
+
+
 p{background-color: grey;
-color: white;}
+color: white;
+
+
+
+font-family: "press start 2P","consolas", "san-serif";
+font-style: italic;
+font-weight: 200;
+text-decoration: cyan dotted underline;
+font-size: 18px;
+
+border-style: inset;
+border-width: 5px;
+border-color: gold;
+border-radius: 10px;
+padding: 5px;
+
+}
 #p1{
     background-color: red;
 }

@@ -24,6 +24,19 @@ border-left-color: silver;
 background: linear-gradient(to right, skyblue, white);
 background-repeat: no-repeat;
 background-attachment: fixed;
+
+
+text-shadow: 0px 0px 7px orangered, 0px -5px 5px white;
+}
+
+h1:hover{
+box-shadow: 5px 5px 5px black;
+
+
+
+
+
+
 }
 
 
@@ -146,4 +159,13 @@ li:nth-child(even){
 }
 li:nth-child(1){
         background-color: yellow;
+    }
+
+
+    .fa-twitter{
+        color: grey;
+    }
+
+    .fa-house-user{
+        color: darkgrey;
     }

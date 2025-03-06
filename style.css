@@ -106,6 +106,8 @@ img{
 
 #box1{
 
+    font-size: 150px;
+    text-align: center;
     border: 1px solid;
     height: 300px;
     width: 300px;
@@ -116,10 +118,67 @@ img{
     bottom: 0px;
     top: 0px;
     
-
+    animation: mycolorchange;
+    animation-play-state: running;
+    animation-delay: 0s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
     
 }
+@keyframes myslide{
+    from{margin-left: 100%;}
+    to{margin-left: 0px;}
+}
+
+@keyframes myrotate{
+    100%{transform: rotateZ(180deg)}
+}
+@keyframes myopacity{
+    50%{opacity: 0;}
+}
+
+@keyframes myscale{
+    50%{transform: scale(0.5, 0.5);}
+}
+
+@keyframes mycolorchange{
+    0%{background-color: red;}
+    20%{background-color: orange;}
+    40%{background-color: yellow;}
+    100%{background-color: green;}
+}   
 #box2{
+
+    font-size: 95px;
+    text-align: center;
+
+    transform: translateX(50px);
+    transform: translateY(50px);
+    transform: translate(50px, 50px);
+    transform: rotateX(180deg);
+    transform: rotateY(180deg);
+    transform: rotateZ(180deg);
+    transform: scaleX(3);
+    transform: scaleY(3);
+    transform: scale(2, 2);
+    transform: skewX(45deg);
+    transform: skewY(45deg);
+
+
+   /* transform: matrix(1, 0, 0, 1, 0, 0);
+
+    matrix combines
+    scalex()
+    skewY()
+    skewX()
+    scaleY()
+    translateX()
+    trsanslateY()*/
+
+
+
+
 
     border: 1px solid;
     height: 100px;
